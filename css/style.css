@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Libre+Caslon+Text&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee&family=Montserrat:wght@450&display=swap');
 *{
-    background-color: #2d2f72;
+    background-color: #16151A;
  }
-
- .navbar{
+ nav a{
+    color: #fcfcfe;
+}
+.navbar{
     margin:0; 
     padding:0;
     width: 100%;
-    position: fixed;  
+    /* position: fixed;   */
  }
+
+
+/* 
+ 
 
  body, html{
     margin:0; 
     padding:0;
  }
-.navbar a{
-    text-align: right;
-    font-family: 'Bungee Hairline', sans-serif;
-    color: #fcfcfe;
-}
+
 .imgredonda{
     width:400px;
     height:400px;
@@ -27,10 +29,7 @@
 
 #inicio p{
     text-align: left;
-    font-family: 'Pangolin', cursive;
-    font-size: medium;
-    color: #fcfcfe;
-    font-size: 25px;
+    color: #aaccee;
 }
 #inicio hr{
     color: #fcfcfe;
@@ -49,25 +48,26 @@
     text-align: center;
     color: #fcfcfe;
     font-family: 'Pangolin', cursive;
-}
-.card{
+} */
+/* .card{
     display: flex;
     background: #5D1476;
     margin: auto;
     border: none;
-}
+} */
 #contactame label{
-    text-align: justify;
-    font-family:'Pangolin', cursive;
+    font-family:'Montserrat', sans-serif;
     color: #fcfcfe;
-    border: none;
+    float: left;
 }
-#btnEnviar{
-    align-items: center;
-    border: none;
-    background-color:#8A4F8F;
-    border-radius: 5px;
+#btnEnviar{   
+    color: #fcfcfe;
+    font-size: 10pt;
+    font-weight: bold;
 }
+  
+/*
+
 footer {
     text-align: center;
     padding-top: 10%;
@@ -75,24 +75,55 @@ footer {
     height: 40px;
     color: white;
     font-family: monospace;
-}
+} */
 
-@media only screen and (max-width: 480px) {
-    #inicio img {
-      display: none;
+/* #rowin {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #colin1 {
+    width: 80%;
+  }
+  
+  #colin2 {
+    width: 20%;
+  }
+  
+  @media all and (max-width: 450px) {
+    #rowin {
+      flex-direction: column;
     }
-    #inicio p{
-        font-size: 16px;
+    #rowin  #colin1 {
+      width: 100%;
+      order: 1;
     }
-    #sobre_mi img{
-        width: auto;
-        position: relative;
+    #rowin #colin2 {
+      width: 100%;
+      order: 2;
     }
+  } */
+@media only screen and (max-width: 320px) {
+
+    #inicio img{
+        width: 70%;
+        height: 70%;
+    }
+    #inicio p1{
+        font-size: 34pt ;
+    }
+    #inicio p2{
+        font-size: 30pt ;
+    }
+    #inicio p3{
+        font-size: 10pt ;
+    }
+
     #sobre_mi p{
         font-size: 16px;
         text-align: justify;
     }
     footer p{
-        font-size: 7px;
+        font-size: 5pt;
     }
   }
